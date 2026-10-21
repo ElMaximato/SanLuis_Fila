@@ -1,0 +1,18 @@
+@'
+node_modules/
+.env
+*.log
+
+# Android / React Native
+SanLuisWatch/android/local.properties
+SanLuisWatch/android/build/
+SanLuisWatch/android/app/build/
+SanLuisWatch/android/.gradle/
+SanLuisWatch/android/app/.cxx/
+*.apk
+*.aab
+*.jks
+
+# Web
+frontend/dist/
+'@ | Set-Content .gitignore -Encoding ascii
